@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rotateCard1 {
+  0% {
+    transform: translateX(-150px) translateY(50px) rotate(-15deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-120px) translateY(0) rotate(-10deg);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateCard2 {
+  0% {
+    transform: translateY(150px) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateCard3 {
+  0% {
+    transform: translateX(150px) translateY(50px) rotate(15deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(120px) translateY(0) rotate(10deg);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-down {
+  animation: fadeInDown 1s ease-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out 0.5s forwards;
+  opacity: 0;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 1s ease-out 1s forwards;
+  opacity: 0;
+}
+
+.animate-card-1 {
+  animation: rotateCard1 1.5s ease-out 1.2s forwards;
+  transform: translateX(-150px) translateY(50px) rotate(-15deg);
+  opacity: 0;
+}
+
+.animate-card-2 {
+  animation: rotateCard2 1.5s ease-out 1.5s forwards;
+  transform: translateY(150px) scale(0.8);
+  opacity: 0;
+}
+
+.animate-card-3 {
+  animation: rotateCard3 1.5s ease-out 1.8s forwards;
+  transform: translateX(150px) translateY(50px) rotate(15deg);
+  opacity: 0;
+}
+
+.bg-dots-grid {
+  background-image: radial-gradient(circle, #e5e7eb 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
