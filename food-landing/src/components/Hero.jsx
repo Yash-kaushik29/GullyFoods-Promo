@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-[80vh] bg-gradient-to-r from-white via-gray-50 to-white overflow-hidden flex items-center justify-center p-4 pt-24 lg:pt-16">
+    <section className="relative w-full min-h-[80vh] bg-gradient-to-r from-white via-gray-50 to-white overflow-hidden flex items-center justify-center p-4 pt-24 lg:pt-16 mx-au">
       <div className="absolute inset-0 bg-dots-grid opacity-10"></div>
       <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
         <div className="text-center lg:text-left lg:w-1/2">

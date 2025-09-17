@@ -6,43 +6,43 @@ import HowItWorks from "./components/HowItWorks";
 import Demo from "./components/Demo";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
-import SellerHero from "./components/SellerHero"; // Make sure you have this component file
+import SellerHero from "./components/SellerHero";
 
 const App = () => {
   return (
-    <div className="font-sans">
+    <div className="font-sans bg-white text-gray-900">
       {/* Navbar */}
       <Navbar />
 
       {/* Hero Section (Customer) */}
-      <div id="hero">
+      <section id="hero" className="w-full">
         <Hero />
-      </div>
+      </section>
 
       {/* Strengths / Features */}
-      <div id="strengths">
+      <section id="strengths" className="w-full">
         <Strengths />
-      </div>
-      
+      </section>
+
       {/* How It Works */}
-      <div id="how-it-works">
+      <section id="how-it-works" className="w-full">
         <HowItWorks />
-      </div>
+      </section>
 
       {/* Demo / Screenshots */}
-      <div id="demo">
+      <section id="demo" className="w-full">
         <Demo />
-      </div>
+      </section>
 
       {/* Call To Action (Customer) */}
-      <div id="cta">
+      <section id="cta" className="w-full">
         <CTA />
-      </div>
+      </section>
 
       {/* Seller Hero Section */}
-      <div id="seller-hero">
+      <section id="seller-hero" className="w-full">
         <SellerHero />
-      </div>
+      </section>
 
       {/* Footer */}
       <Footer />

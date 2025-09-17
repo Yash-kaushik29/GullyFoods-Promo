@@ -45,7 +45,7 @@ const Demo = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="relative w-full lg:w-1/2 flex justify-center lg:justify-end min-h-[500px]"
+          className="relative w-full lg:w-1/2 flex justify-center min-h-[500px]"
         >
           {[
             {
