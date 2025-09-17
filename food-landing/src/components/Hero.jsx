@@ -7,8 +7,7 @@ const Hero = () => {
       <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 animate-fade-in-down mb-4">
-            Fresh Food & Groceries, Delivered Fast
-            <span className="text-green-500">🚀</span>
+            Your Faves, Delivered Fast. No Cap. <span className="text-green-500">🚀</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-700 animate-fade-in mb-8 max-w-xl mx-auto lg:mx-0">
             Craving that spot or need a restock? We got you. Order up and we'll pull up with the goods, fast. It's a whole vibe.
